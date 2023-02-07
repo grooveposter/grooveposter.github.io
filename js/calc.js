@@ -2,7 +2,7 @@
 //25 * (scoreLv + 1) * (score/10 million) * (GRADE Coefficient)
 function volforceCalc() {
 
-  var chartScore_1 = parseFloat(document.getElementById("chartScore_1").value);
+  var chartScore_1 = parseFloat(document.getElementById("chartScore_1").value) * 10;
   var chartLevel_1 = parseFloat(document.getElementById("chartLevel_1").value);
   if (isNaN(chartScore_1) || isNaN(chartLevel_1)) {
     volforce_1 = 0;
@@ -12,7 +12,7 @@ function volforceCalc() {
   }
 
 
-  var chartScore_2 = parseFloat(document.getElementById("chartScore_2").value);
+  var chartScore_2 = parseFloat(document.getElementById("chartScore_2").value) * 10;
   var chartLevel_2 = parseFloat(document.getElementById("chartLevel_2").value);
   if (isNaN(chartScore_2) || isNaN(chartLevel_2)) {
     volforce_2 = 0;
@@ -22,7 +22,7 @@ function volforceCalc() {
   }
 
 
-  var chartScore_3 = parseFloat(document.getElementById("chartScore_3").value);
+  var chartScore_3 = parseFloat(document.getElementById("chartScore_3").value) * 10;
   var chartLevel_3 = parseFloat(document.getElementById("chartLevel_3").value);
   if (isNaN(chartScore_3) || isNaN(chartLevel_3)) {
     volforce_3 = 0;
@@ -32,7 +32,7 @@ function volforceCalc() {
   }
 
 
-  var chartScore_4 = parseFloat(document.getElementById("chartScore_4").value);
+  var chartScore_4 = parseFloat(document.getElementById("chartScore_4").value) * 10;
   var chartLevel_4 = parseFloat(document.getElementById("chartLevel_4").value);
   if (isNaN(chartScore_4) || isNaN(chartLevel_4)) {
     volforce_4 = 0;
@@ -41,7 +41,7 @@ function volforceCalc() {
       var volforce_4 = Math.floor(25*(chartLevel_4 + 1)*(chartScore_4/10000000)*gradeCheck(chartScore_4));
   }
 
-  var chartScore_5 = parseFloat(document.getElementById("chartScore_5").value);
+  var chartScore_5 = parseFloat(document.getElementById("chartScore_5").value) * 10;
   var chartLevel_5 = parseFloat(document.getElementById("chartLevel_5").value);
   if (isNaN(chartScore_5) || isNaN(chartLevel_5)) {
     volforce_5 = 0;
@@ -51,7 +51,7 @@ function volforceCalc() {
   }
 
 
-  var chartScore_6 = parseFloat(document.getElementById("chartScore_6").value);
+  var chartScore_6 = parseFloat(document.getElementById("chartScore_6").value) * 10;
   var chartLevel_6 = parseFloat(document.getElementById("chartLevel_6").value);
   if (isNaN(chartScore_6) || isNaN(chartLevel_6)) {
     volforce_6 = 0;
@@ -60,7 +60,7 @@ function volforceCalc() {
     var volforce_6 = Math.floor(25*(chartLevel_6 + 1)*(chartScore_6/10000000)*gradeCheck(chartScore_6));
   }
 
-  var chartScore_7 = parseFloat(document.getElementById("chartScore_7").value);
+  var chartScore_7 = parseFloat(document.getElementById("chartScore_7").value) * 10;
   var chartLevel_7 = parseFloat(document.getElementById("chartLevel_7").value);
   if (isNaN(chartScore_7) || isNaN(chartLevel_7)) {
     volforce_7 = 0;
@@ -69,7 +69,7 @@ function volforceCalc() {
     var volforce_7 = Math.floor(25*(chartLevel_7 + 1)*(chartScore_7/10000000)*gradeCheck(chartScore_7));
   }
 
-  var chartScore_8 = parseFloat(document.getElementById("chartScore_8").value);
+  var chartScore_8 = parseFloat(document.getElementById("chartScore_8").value) * 10;
   var chartLevel_8 = parseFloat(document.getElementById("chartLevel_8").value);
   if (isNaN(chartScore_8) || isNaN(chartLevel_8)) {
     volforce_8 = 0;
@@ -78,7 +78,7 @@ function volforceCalc() {
     var volforce_8 = Math.floor(25*(chartLevel_8 + 1)*(chartScore_8/10000000)*gradeCheck(chartScore_8));
   }
 
-  var chartScore_9 = parseFloat(document.getElementById("chartScore_9").value);
+  var chartScore_9 = parseFloat(document.getElementById("chartScore_9").value) * 10;
   var chartLevel_9 = parseFloat(document.getElementById("chartLevel_9").value);
   var volforce_9 = Math.floor(25*(chartLevel_9 + 1)*(chartScore_9/10000000)*gradeCheck(chartScore_9));
   if (isNaN(chartScore_9) || isNaN(chartLevel_9)) {
@@ -88,7 +88,7 @@ function volforceCalc() {
     var volforce_9 = Math.floor(25*(chartLevel_9 + 1)*(chartScore_9/10000000)*gradeCheck(chartScore_9));
   }
 
-  var chartScore_10 = parseFloat(document.getElementById("chartScore_10").value);
+  var chartScore_10 = parseFloat(document.getElementById("chartScore_10").value) * 10;
   var chartLevel_10 = parseFloat(document.getElementById("chartLevel_10").value);
   if (isNaN(chartScore_10) || isNaN(chartLevel_10)) {
     volforce_10 = 0;
@@ -97,7 +97,7 @@ function volforceCalc() {
     var volforce_10 = Math.floor(25*(chartLevel_10 + 1)*(chartScore_10/10000000)*gradeCheck(chartScore_10));
   }
 
-  var chartScore_11 = parseFloat(document.getElementById("chartScore_11").value);
+  var chartScore_11 = parseFloat(document.getElementById("chartScore_11").value) * 10;
   var chartLevel_11 = parseFloat(document.getElementById("chartLevel_11").value);
   if (isNaN(chartScore_11) || isNaN(chartLevel_11)) {
     volforce_11 = 0;
@@ -106,7 +106,7 @@ function volforceCalc() {
     var volforce_11 = Math.floor(25*(chartLevel_11 + 1)*(chartScore_11/10000000)*gradeCheck(chartScore_11));
   }
 
-  var chartScore_12 = parseFloat(document.getElementById("chartScore_12").value);
+  var chartScore_12 = parseFloat(document.getElementById("chartScore_12").value) * 10;
   var chartLevel_12 = parseFloat(document.getElementById("chartLevel_12").value);
   if (isNaN(chartScore_12) || isNaN(chartLevel_12)) {
     volforce_12 = 0;
@@ -115,7 +115,7 @@ function volforceCalc() {
     var volforce_12 = Math.floor(25*(chartLevel_12 + 1)*(chartScore_12/10000000)*gradeCheck(chartScore_12));
   }
 
-  var chartScore_13 = parseFloat(document.getElementById("chartScore_13").value);
+  var chartScore_13 = parseFloat(document.getElementById("chartScore_13").value) * 10;
   var chartLevel_13 = parseFloat(document.getElementById("chartLevel_13").value);
   if (isNaN(chartScore_13) || isNaN(chartLevel_13)) {
     volforce_13 = 0;
@@ -124,7 +124,7 @@ function volforceCalc() {
     var volforce_13 = Math.floor(25*(chartLevel_13 + 1)*(chartScore_13/10000000)*gradeCheck(chartScore_13));
   }
 
-  var chartScore_14 = parseFloat(document.getElementById("chartScore_14").value);
+  var chartScore_14 = parseFloat(document.getElementById("chartScore_14").value) * 10;
   var chartLevel_14 = parseFloat(document.getElementById("chartLevel_14").value);
   if (isNaN(chartScore_14) || isNaN(chartLevel_14)) {
     volforce_14 = 0;
@@ -133,7 +133,7 @@ function volforceCalc() {
     var volforce_14 = Math.floor(25*(chartLevel_14 + 1)*(chartScore_14/10000000)*gradeCheck(chartScore_14));
   }
 
-  var chartScore_15 = parseFloat(document.getElementById("chartScore_15").value);
+  var chartScore_15 = parseFloat(document.getElementById("chartScore_15").value) * 10;
   var chartLevel_15 = parseFloat(document.getElementById("chartLevel_15").value);
   if (isNaN(chartScore_15) || isNaN(chartLevel_15)) {
     volforce_15 = 0;
@@ -142,7 +142,7 @@ function volforceCalc() {
     var volforce_15 = Math.floor(25*(chartLevel_15 + 1)*(chartScore_15/10000000)*gradeCheck(chartScore_15));
   }
 
-  var chartScore_16 = parseFloat(document.getElementById("chartScore_16").value);
+  var chartScore_16 = parseFloat(document.getElementById("chartScore_16").value) * 10;
   var chartLevel_16 = parseFloat(document.getElementById("chartLevel_16").value);
   if (isNaN(chartScore_16) || isNaN(chartLevel_16)) {
     volforce_16 = 0;
@@ -151,7 +151,7 @@ function volforceCalc() {
     var volforce_16 = Math.floor(25*(chartLevel_16 + 1)*(chartScore_16/10000000)*gradeCheck(chartScore_16));
   }
 
-  var chartScore_17 = parseFloat(document.getElementById("chartScore_17").value);
+  var chartScore_17 = parseFloat(document.getElementById("chartScore_17").value) * 10;
   var chartLevel_17 = parseFloat(document.getElementById("chartLevel_17").value);
   if (isNaN(chartScore_17) || isNaN(chartLevel_17)) {
     volforce_17 = 0;
@@ -160,7 +160,7 @@ function volforceCalc() {
     var volforce_17= Math.floor(25*(chartLevel_17 + 1)*(chartScore_17/10000000)*gradeCheck(chartScore_17));
   }
 
-  var chartScore_18 = parseFloat(document.getElementById("chartScore_18").value);
+  var chartScore_18 = parseFloat(document.getElementById("chartScore_18").value) * 10;
   var chartLevel_18 = parseFloat(document.getElementById("chartLevel_18").value);
   if (isNaN(chartScore_18) || isNaN(chartLevel_18)) {
     volforce_18 = 0;
@@ -169,7 +169,7 @@ function volforceCalc() {
     var volforce_18 = Math.floor(25*(chartLevel_18 + 1)*(chartScore_18/10000000)*gradeCheck(chartScore_18));
   }
 
-  var chartScore_19 = parseFloat(document.getElementById("chartScore_19").value);
+  var chartScore_19 = parseFloat(document.getElementById("chartScore_19").value) * 10;
   var chartLevel_19 = parseFloat(document.getElementById("chartLevel_19").value);
   if (isNaN(chartScore_19) || isNaN(chartLevel_19)) {
     volforce_19 = 0;
@@ -178,7 +178,7 @@ function volforceCalc() {
     var volforce_19 = Math.floor(25*(chartLevel_19 + 1)*(chartScore_19/10000000)*gradeCheck(chartScore_19));
   }
 
-  var chartScore_20 = parseFloat(document.getElementById("chartScore_20").value);
+  var chartScore_20 = parseFloat(document.getElementById("chartScore_20").value) * 10;
   var chartLevel_20 = parseFloat(document.getElementById("chartLevel_20").value);
   if (isNaN(chartScore_20) || isNaN(chartLevel_20)) {
     volforce_20 = 0;
